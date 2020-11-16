@@ -1,0 +1,132 @@
+body {
+    max-width: 1024px;
+    margin: 0 auto;
+    font-family: 'Raleway',Arial,sans-serif;
+}
+
+header h1{
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 3.3em;
+    color: #721D15;
+    margin: 0.5em;
+}
+header img {
+    max-width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    padding: 0.8em 1.8em 0.5em 1.8em;
+}
+nav ul li a {
+    color: #721D15;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+nav ul li a:hover {
+    color:  #dd771d;
+    font-weight: bold;
+}
+section {
+    clear: both;
+}
+
+#encuentra {
+    margin: 2em 5em;
+    text-align: center;
+    font-size: 2em;
+    color: #888888;
+    line-height: 1.3em;
+}
+
+#contenidos {
+    margin-top: 1em;
+    overflow: hidden;
+}
+.contenido {
+    float: left;
+    width: 30%;
+    margin: 1em;
+}
+.contenido h2 {
+    text-align: center;
+    color: #8e6335;
+    font-size: 1.5em;
+    padding: 0.5em;
+
+}
+.contenido img {
+    border-radius: 10px;
+    width: 230px;
+    height: 200px;
+    margin: 0 auto;
+    display: block;
+}
+
+#newsletter {
+    margin-top: 3em;
+    margin-bottom: 5em;
+    padding: 2em 1em;
+    background-color:  #dd771d;
+    text-align: center;
+}
+#newsletter h2 {
+    font-size: 2em;
+    padding: 1em;
+}
+
+#ultimo {
+    margin: 2em 5em;
+}
+#ultimo h2 {
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 3em;
+    color: #721D15;
+}
+
+.receta {
+    overflow: hidden;
+    padding: 3em;
+}
+.receta img {
+    width: 450px;
+    float: left;
+    padding: 0 2em;
+}
+.receta h3 {
+    font-size: 2em;
+    color: #dd771d;
+    padding: 1em;
+    font-weight: bold;
+}
+
+.receta p {
+    padding: 0.5em 4em;
+    color: #888888;
+
+}
+.receta p span {
+    font-weight: bold;
+    font-size: 1.1em;
+    padding-right: 1.1em;
+    padding-left: 1em;
+}
+
+.receta  button {
+    margin: 2em 3em;
+    padding: 0.7em;
+}
+footer {
+    margin: 2em;
+    padding: 2em;
+    text-align: center;
+}
